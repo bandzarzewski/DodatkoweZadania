@@ -1,6 +1,3 @@
-package com.company;
-
-
 public class FizzBuss {
     public String[] fizzBuss(int n){
         String[] result = new String[n];
