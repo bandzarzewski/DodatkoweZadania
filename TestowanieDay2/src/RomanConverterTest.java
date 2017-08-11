@@ -11,7 +11,9 @@ public class RomanConverterTest {
     private final int number;
     RomanConverter testObject = new RomanConverter();
 
-    @Parameters
+    // To jest framework
+    // https://www.mkyong.com/unittest/junit-4-tutorial-6-parameterized-test/
+    @Parameters(name = "{1}-> {0}")
     public static Object[][] data() {
         return new Object[][]{
                 {"I", 1},
@@ -19,6 +21,12 @@ public class RomanConverterTest {
                 {"III", 3},
                 {"IV", 4},
                 {"V", 5},
+                {"VI", 6},
+                {"VII", 7},
+                {"VIII", 8},
+                {"IX",9},
+                {"X",10},
+                {"XI",11},
         };
     }
 
@@ -28,51 +36,10 @@ public class RomanConverterTest {
         this.expectedOutput = expectedOutput;
         this.number = number;
     }
-
     @Test
 
     public  void assertConvertedNumber(){
         assertConversion(expectedOutput,number);
-    }
-
-//    @Test
-//    public  void shouldReturnIWhen1IsConverter() {
-//        assertConversion("I", 1);//
-//    }
-
-//    @Test
-//    public void shouldReturnIIWhen2IsConverted() {
-//        assertConversion("II", 2);
-//    }
-
-//    @Test
-//    public void shouldReturnIIIWhen3IsConverted() {
-//        assertConversion("III", 3);
-//    }
-//
-//    @Test
-//    public void shouldReturnIVWhen4IsConverted() {
-//        assertConversion("IV", 4);
-//    }
-//
-//    @Test
-//    public void shouldReturnVWhen5IsConverted() {
-//        assertConversion("V", 5);
-//    }
-
-    @Test
-    public void shouldReturnVIWhen6IsConverted() {
-        assertConversion("VI", 6);
-    }
-
-    @Test
-    public void shouldReturnVIIWhen7IsConverted() {
-        assertConversion("VII", 7);
-    }
-
-    @Test
-    public void shouldReturnVIIIWhen8IsConverted() {
-        assertConversion("VIII", 8);
     }
 
     private void assertConversion(String expected, int number) {

@@ -5,25 +5,18 @@ public class RomanConverter {
 
 
     public String convert(int number) {
-//        if(number==1)return "I";
-        String result="";
-        if(number==4)return "IV";
-        if(number>=5) {
-            result ="V";
-            number-=5;
-        }
-//        if(number==6)return "VI";
-//        if(number==7)return "VII";
-//        if(number==5)return "V";
+        String result ="";
+        if (number == 4) return "IV";
+        if (number == 9) return "IX";
+        if (number == 10) return "X";
 
-        for (int i = 0; i <number; i++) {
-            result +="I";
+        if (number >= 5) {
+            result = "V";
+            number -= 5;
         }
-//        if (number==3 )return "III";
-//        if (number==2 )return "II";
+        for (int i = 0; i < number; i++) {
+            result += "I";
+        }
         return result;
-
-
     }
-
 }
