@@ -3,8 +3,8 @@
  */
 public class RomanConverter {
 
-    private String[] romanNumers ={"I","IV","V","IX","X","XL","L","XC","C","CD","D","M"};
-    private int[] romanValues={1,4,5,9,10,40,50,90,100,400,500,1000};
+    private String[] romanNumers ={"I","IV","V","IX","X","XL","L","XC","C","CD","D","M","MMXVII"};
+    private int[] romanValues={1,4,5,9,10,40,50,90,100,400,500,1000,2017};
 
     public String convert(int number) {
         String result = "";

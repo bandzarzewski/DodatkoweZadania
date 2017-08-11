@@ -41,6 +41,7 @@ public class RomanConverterTest {
                 {"CD",400},
                 {"D",500},
                 {"M",1000},
+                {"MMXVII",2017},
         };
     }
 
