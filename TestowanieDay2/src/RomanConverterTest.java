@@ -6,11 +6,11 @@ public class RomanConverterTest {
 
     @Test
     public void shouldReturnIWhen1IsConverter() {
-        Assert.assertEquals("I", testObject.convert(1));//
+        assertConversion("I", 1);//
     }
     @Test
     public void shouldReturnIIWhen2IsConverted() {
-        Assert.assertEquals("II", testObject.convert(2));
+        assertConversion("II", 2);
     }
     @Test
     public void shouldReturnIIIWhen3IsConverted() {
