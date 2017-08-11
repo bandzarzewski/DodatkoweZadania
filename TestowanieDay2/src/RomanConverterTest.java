@@ -33,6 +33,14 @@ public class RomanConverterTest {
                 {"XX",20},
                 {"XXXIX",39},
                 {"XL",40},
+                {"XLI",41},
+                {"L",50},
+                {"LXXXIX",89},
+                {"XC",90},
+                {"C",100},
+                {"CD",400},
+                {"D",500},
+                {"M",1000},
         };
     }
 
