@@ -3,18 +3,20 @@
  */
 public class RomanConverter {
 
-    private String[] RomanNumer={"I","IV","V","IX","X"};
+    private String[] romanNumers ={"I","IV","V","IX","X"};
     private int[] romanValues={1,4,5,9,10};
 
     public String convert(int number) {
         String result = "";
 
-        for (int romanIndex=RomanNumer.length-1;number>0;romanIndex--){
+        for (int romanIndex = romanNumers.length - 1; number > 0; romanIndex--) {
             // romanIndex - najwiekszy element !
-            result += RomanNumer[romanIndex];
-            number -=romanValues[romanIndex];
+            if (romanValues[romanIndex] <= number) {
+                result += romanNumers[romanIndex];
+                number -= romanValues[romanIndex];
+            }
         }
-        return result;
+            return result;
 //
 //        if (number >= 10) {
 //            for (;number >= 10;) { // To jest ciekawy zapis !
@@ -32,5 +34,6 @@ public class RomanConverter {
 //            result += "I";
 //        }
 
+        }
     }
-}
+
