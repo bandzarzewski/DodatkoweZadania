@@ -3,14 +3,14 @@
  */
 public class RomanConverter {
 
-    private String[] romanNumers ={"I","IV","V","IX","X"};
-    private int[] romanValues={1,4,5,9,10};
+    private String[] romanNumers ={"I","IV","V","IX","X","XL"};
+    private int[] romanValues={1,4,5,9,10,40};
 
     public String convert(int number) {
         String result = "";
         int romanIndex=romanNumers.length-1;
 
-        for (; number > 0;) {
+        while (number > 0) {
 
             // romanIndex - najwiekszy element !
 
