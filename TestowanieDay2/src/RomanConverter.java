@@ -5,6 +5,7 @@ public class RomanConverter {
 
 
     public String convert(int number) {
+//        if(number==1)return "I";
         String result="";
         if(number==4)return "IV";
         if(number>=5) {

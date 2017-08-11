@@ -13,7 +13,13 @@ public class RomanConverterTest {
 
     @Parameters
     public static Object[][] data() {
-        return new Object[][]{{"I", 1}};
+        return new Object[][]{
+                {"I", 1},
+                {"II", 2},
+                {"III", 3},
+                {"IV", 4},
+                {"V", 5},
+        };
     }
 
     // Konstruktor
@@ -29,30 +35,30 @@ public class RomanConverterTest {
         assertConversion(expectedOutput,number);
     }
 
-    @Test
-    public  void shouldReturnIWhen1IsConverter() {
-        assertConversion("I", 1);//
-    }
+//    @Test
+//    public  void shouldReturnIWhen1IsConverter() {
+//        assertConversion("I", 1);//
+//    }
 
-    @Test
-    public void shouldReturnIIWhen2IsConverted() {
-        assertConversion("II", 2);
-    }
+//    @Test
+//    public void shouldReturnIIWhen2IsConverted() {
+//        assertConversion("II", 2);
+//    }
 
-    @Test
-    public void shouldReturnIIIWhen3IsConverted() {
-        assertConversion("III", 3);
-    }
-
-    @Test
-    public void shouldReturnIVWhen4IsConverted() {
-        assertConversion("IV", 4);
-    }
-
-    @Test
-    public void shouldReturnVWhen5IsConverted() {
-        assertConversion("V", 5);
-    }
+//    @Test
+//    public void shouldReturnIIIWhen3IsConverted() {
+//        assertConversion("III", 3);
+//    }
+//
+//    @Test
+//    public void shouldReturnIVWhen4IsConverted() {
+//        assertConversion("IV", 4);
+//    }
+//
+//    @Test
+//    public void shouldReturnVWhen5IsConverted() {
+//        assertConversion("V", 5);
+//    }
 
     @Test
     public void shouldReturnVIWhen6IsConverted() {
