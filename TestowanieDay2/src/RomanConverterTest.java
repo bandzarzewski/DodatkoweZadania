@@ -20,6 +20,19 @@ public class RomanConverterTest {
     public void shouldReturnIVWhen4IsConverted() {
         assertConversion("IV", 4);
     }
+    @Test
+    public void shouldReturnVWhen5IsConverted() {
+        assertConversion("V", 5);
+    }
+    @Test
+    public void shouldReturnVIWhen6IsConverted() {
+        assertConversion("VI", 6);
+    }
+    @Test
+    public void shouldReturnVIIWhen7IsConverted() {
+        assertConversion("VII", 7);
+    }
+
     private void assertConversion(String expected,int number){
         Assert.assertEquals(expected, testObject.convert(number));
 
