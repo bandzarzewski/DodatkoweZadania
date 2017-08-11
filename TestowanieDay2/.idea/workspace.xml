@@ -39,8 +39,8 @@
           <file leaf-file-name="RomanConverter.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/RomanConverter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+                <state relative-caret-position="135">
+                  <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
                   <folding>
                     <element signature="docComment;class#RomanConverter#0" expanded="false" />
                   </folding>
@@ -55,8 +55,8 @@
           <file leaf-file-name="RomanConverterTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/RomanConverterTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="364">
-                  <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                <state relative-caret-position="346">
+                  <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#196#197#0" expanded="true" />
@@ -65,6 +65,8 @@
                     <element signature="e#340#341#0" expanded="true" />
                     <element signature="e#402#403#0" expanded="true" />
                     <element signature="e#444#445#0" expanded="true" />
+                    <element signature="e#505#506#0" expanded="true" />
+                    <element signature="e#546#547#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -597,20 +599,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502467780404</updated>
-      <workItem from="1502467783343" duration="1852000" />
+      <workItem from="1502467783343" duration="2140000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanConverterTest - 2017.08.11 at 18h 31m 48s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2017.08.11 at 18h 33m 06s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2017.08.11 at 18h 33m 35s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanConverterTest - 2017.08.11 at 18h 35m 50s.xml">
       <configuration name="RomanConverterTest" configurationId="JUnit" />
     </history-entry>
@@ -632,9 +625,18 @@
     <history-entry file="RomanConverterTest - 2017.08.11 at 18h 40m 37s.xml">
       <configuration name="RomanConverterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanConverterTest - 2017.08.11 at 18h 41m 29s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2017.08.11 at 18h 44m 40s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2017.08.11 at 18h 45m 30s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1852000" />
+    <option name="totallyTimeSpent" value="2140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -699,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RomanConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="135">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="docComment;class#RomanConverter#0" expanded="false" />
           </folding>

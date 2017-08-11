@@ -16,6 +16,10 @@ public class RomanConverterTest {
     public void shouldReturnIIIWhen3IsConverted() {
         assertConversion("III", 3);
     }
+    @Test
+    public void shouldReturnIVWhen4IsConverted() {
+        assertConversion("IV", 4);
+    }
     private void assertConversion(String expected,int number){
         Assert.assertEquals(expected, testObject.convert(number));
 
